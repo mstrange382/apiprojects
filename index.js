@@ -6,7 +6,9 @@ function catsApi() {
       .then((result) => displayCat(result))
       .catch((error) => console.log(error));
   }
-catsApi();
+
+
+
 
 function displayCat(cats){
     console.log(cats);
@@ -17,6 +19,9 @@ function displayCat(cats){
         let div = document.createElement('div');
         document.body.appendChild(div);
         div.appendChild(facts);
+        
     }
 }
+
+
 

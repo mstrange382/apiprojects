@@ -1,0 +1,21 @@
+body{
+background-color: #ffb627;
+}
+
+p{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+img{
+   height: 800px;
+   cursor: pointer;
+   
+}
+
+#para{
+    font-size: 120px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
