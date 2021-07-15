@@ -1,4 +1,4 @@
-let baseurl = 'https://cat-fact.herokuapp.com/facts';
+let baseurl = 'https://catfact.ninja/fact';
 
 function catsApi() {
     fetch(baseurl)
@@ -12,15 +12,14 @@ function catsApi() {
 
 function displayCat(cats){
     console.log(cats);
-    for (i = 0; i < cats.length; i++){
-        console.log(cats[i].text);
+    
+        console.log(cats.fact);
         let facts = document.createElement('p');
-        facts.innerText = cats[i].text;
+        facts.innerText = cats.fact;
         let div = document.createElement('div');
         document.body.appendChild(div);
         div.appendChild(facts);
-        
-    }
+         
 }
 
 
